@@ -23,7 +23,7 @@ This module was created with the help of the following community spreadsheet: ht
 
 This document was used as a reference to structure ingredients and recipes compatible with Mastercrafted.
 
-# Features (v1.0.1)
+# Features (1.0.1)
 
 Current functionality focuses on enabling the Drakkenheim ingredient system inside Mastercrafted, and implementing SRD item crafting.
 
