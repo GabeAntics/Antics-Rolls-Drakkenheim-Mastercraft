@@ -63,14 +63,6 @@
       {
         "id": "drakkenheim-scgd",
         "type": "module"
-      },
-      {
-        "id": "drakkenheim-core",
-        "type": "module"
-      },
-      {
-        "id": "dnd-dungeon-masters-guide",
-        "type": "module"
       }
     ]
   }
