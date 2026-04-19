@@ -23,23 +23,33 @@ This module was created with the help of the following community spreadsheet: ht
 
 This document was used as a reference to structure ingredients and recipes compatible with Mastercrafted.
 
-# Features (1.0.1)
+# Features (1.1.0)
 
-Current functionality focuses on enabling the Drakkenheim ingredient system inside Mastercrafted, and implementing SRD item crafting.
+Current functionality focuses on enabling the Drakkenheim ingredient system inside Mastercrafted, and expanding recipe support for both SRD items and Monsters of Drakkenheim content.
 
-## Macro Compendium
+- A macro compendium with:
+  - a macro to create ingredients from the provided CSV file
+- An ingredient item compendium containing Drakkenheim ingredients prepared for Mastercrafted, expanded tom over 700 ingredients
+- Ingredients organized by family and rarity to reduce clutter compared to a full monster-by-monster ingredient list
+- Every ingredient tagged with Mastercrafted tags.
+- Recipe journals compendium containing SRD recipes split by rarity
+- All uncommon recipes from Monsters of Drakkenheim implemented
 
-Includes a macro that can recreate all ingredients in case they are accidentally deleted or need to be regenerated.
+# Changelog
 
-## Ingredient Item Compendium
+## 1.1.0
 
-Contains all Drakkenheim ingredients prepared for Mastercrafted.
+- Added a new macro to create ingredients based on a CSV file
+- Added `assets/Ingredients.csv` for the ingredient source list
+- Split SRD recipes between rarities
+- Implemented all uncommon recipes from Monsters of Drakkenheim
 
-For ease of use, ingredients are organized one per rarity per family. This significantly reduces clutter compared to the full Drakkenheim ingredient list which can contain ingredients coming from specific monsters, or specific types of bones (skull for example).
+## 1.0.1
 
-## Recipe Journal Compendium
-
-A journal compendium containing recipes for SRD items that use Drakkenheim ingredients.
+- Added Drakkenheim ingredients prepared for use with Mastercrafted
+- Added SRD item crafting recipes that use Drakkenheim ingredients
+- Added a macro to recreate the ingredient set when it needs to be regenerated
+- Organized ingredients by family and rarity to keep the compendium easier to use
 
 # Support the Project
 
